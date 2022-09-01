@@ -1,0 +1,9 @@
+1.create database shoppingDB;
+use shoppingDB;
+2.create table Customer(CustomerID int,CustomerName varchar(10),Email varchar(20),Age int,DOB Datetime);
+2.create table Orders(OrderID int,OrderDate Datetime,CustomerID int);
+3.Alter table Customer add Phone varchar(10);
+4.Alter table Customer alter column CustomerName varchar(20) Not null;
+5.alter table Customer drop column DOB;
+6.drop table Customer;
+
